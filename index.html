@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Psicóloga Mariana Monteiro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #6a9c89;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h1, h2 {
+      color: #3d5a4a;
+    }
+    .btn {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background: #3d5a4a;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11475982432"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-11475982432');
+  </script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function(){ 
+      setTimeout(function() {
+        document.querySelectorAll('a[href*="whatsapp"]').forEach(function(el) {
+          el.addEventListener('click', function() {
+            dataLayer.push({'event': 'whatsapp'});
+            gtag('event', 'conversion', {'send_to': 'AW-11475982432/my1_CM-125cZEOCwluAq'});
+          });
+        });
+      },3000);
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Psicóloga Mariana Monteiro</h1>
+    <p>CRP 11/21051 | Terapia Cognitivo-Comportamental (TCC) e ACT | Atendimentos Online</p>
+  </header>
+  <main>
+    <section>
+      <h2>Sobre mim</h2>
+      <p>Olá! Sou Mariana Monteiro, psicóloga clínica com foco em adultos. Acredito na psicologia como caminho de transformação: “Encontrei o significado da minha vida ajudando os outros a encontrarem o sentido de suas vidas” (Frankl, 1991).</p>
+    </section>
+    <section>
+      <h2>Serviços</h2>
+      <ul>
+        <li>Psicoterapia individual online</li>
+        <li>Tratamento para depressão, ansiedade, TDAH</li>
+        <li>Atendimento em dependência química e comportamental</li>
+        <li>Rodas de conversa temáticas</li>
+        <li>E-book gratuito para pacientes</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Agende seu atendimento</h2>
+      <a class="btn" href="https://wa.me/558598597636" target="_blank">Fale comigo no WhatsApp</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Mariana Monteiro | CRP 11/21051 | psicologamarianamonteiro.com.br</p>
+  </footer>
+</body>
+</html>
